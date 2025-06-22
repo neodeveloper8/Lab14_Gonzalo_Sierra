@@ -1,0 +1,6 @@
+@TuApp.API_HostAddress = http://localhost:5222
+
+GET {{TuApp.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
