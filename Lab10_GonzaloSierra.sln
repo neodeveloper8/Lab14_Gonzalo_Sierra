@@ -16,6 +16,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución",
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{D8218705-CE15-4D68-8B8F-A0E23846865C}"
+	ProjectSection(SolutionItems) = preProject
+		dotnet.yml = dotnet.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +48,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8218705-CE15-4D68-8B8F-A0E23846865C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1ECFA0CA-793D-46AB-89CD-27EF2C731679}
